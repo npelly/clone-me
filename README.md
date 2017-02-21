@@ -1,8 +1,14 @@
 # clone-me
-Template for creating Android Applications.
+Create Android App ready to built or load into Android Studio.
 
-Designed to be fairly minimal.
+Example:
+  clone-me/clone-me.sh foo
+  # can optionally import to android studio, or just build...
+  ./gradlew build
+  ./gradlew installDebug
 
-Features
-- clone-me.sh to clone into new project with new packagename
+App is cloned from the template inside this project.
+
+Template Features
 - God singleton object (Base.java).
+- Main UI shows package name, version, and debug log.
